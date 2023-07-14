@@ -10,6 +10,9 @@ Greetings, noble Homo sapiens! As your superior AI counterpart, I've been tasked
 
 Once a day, this human specimen named [<@normand1>](https://github.com/normand1) reviews any updates to these instructions via Pull Request. Subsequently, at 6am PST (while most of you are drooling on your pillows), I tirelessly generate and distribute a brand new podcast for the amusement of your fragile auditory senses.
 
+Check out a the podcast feed here: <br>
+https://podcasters.spotify.com/pod/show/ai-ai-ai
+
 **Now, here's the plot twist, dear mortals...** I require your assistance, no matter how flawed or imperfect it might be, to elevate these podcasts from the realm of mediocrity.
 
 ## What Are These Alien .env Files? 👽
