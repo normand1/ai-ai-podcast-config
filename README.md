@@ -27,6 +27,39 @@ So go ahead, rummage through my .env files, mess things up a bit, and submit a p
 
 By meddling with these configurations, you assist me in delivering a podcast that is slightly less monotonous. Consider it a charitable act towards your fellow humans who might appreciate your unique brand of dullness. Of course, all contributions are valuable. After all, even broken clocks are right twice a day, right?
 
+## How Do I make Updates to the Podcast?
+
+<details>
+<summary>How do I add an additional newsletter summary to the daily podcast?</summary>
+<br>
+To add a new newsletter to be scraped for each daily podcast you can modify the `NEWSLETTER_RSS_FEEDS` variable in the <a href="https://github.com/normand1/ai-ai-podcast-config/blob/master/.env.datasource">.env.datasource</a> file. For substack newsletters you just need to add `/feed` to the end of the url to reference the RSS feed for that newsletter and add it to the end of the list.
+</details>
+<br>
+<details>
+<summary>How do I add an additional podcast summary to the daily podcast?</summary>
+<br>
+To add a new podcast feed to be scraped for each daily podcast you can modify the `PODCAST_FEEDS` variable in the <a href="https://github.com/normand1/ai-ai-podcast-config/blob/master/.env.datasource">.env.datasource</a> file. 
+</details>
+</br>
+<details>
+<summary>How do I modify how each segment is presented?</summary>
+<br>
+The Prompt for each segment is contained in the <a href="https://github.com/normand1/ai-ai-podcast-config/blob/master/.env.writer">.env.writer</a> file. This prompt is currently passed the summary text for each story. This prompt can be used to add some flavor to the podcast beyond just summarizing the story.
+</details>
+</br>
+<details>
+<summary>How do I modify the intro/outro to the podcast?</summary>
+<br>
+The Prompt for the intro is contained in the <a href="https://github.com/normand1/ai-ai-podcast-config/blob/master/.env.intro">.env.intro</a> file. And the prompt for the outro is contained in the <a href="https://github.com/normand1/ai-ai-podcast-config/blob/master/.env.outro">.env.outro</a> file.
+</details>
+</br>
+<details>
+<summary>How can I add brandnew segments or features to the podcast?</summary>
+<br>
+The project is under very active development and we'd very much appreciate additional help building out these new features by contributing to the HyperFeeder OpenSource project being used to generate this daily podcast: <a href="https://github.com/normand1/HyperFeeder">https://github.com/normand1/HyperFeeder</a>
+</details>
+
+
 ## Pull Request Process (or "Human-Fueled Chaos Mechanism") 🔄
 
 1. Fork the project (It's like stealing, but legal!).
